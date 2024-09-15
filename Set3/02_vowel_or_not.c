@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     char ch;
 
@@ -26,6 +26,4 @@ int main()
     default:
         printf("%c is not a vowel.\n", ch);
     }
-
-    return 0;
 }

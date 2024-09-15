@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     char g;
 
@@ -24,6 +24,4 @@ int main()
     default:
         printf("Fail!\n");
     }
-
-    return 0;
 }

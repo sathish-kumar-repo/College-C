@@ -1,7 +1,8 @@
 // C Program to Check Whether a Number is Positive or Negative :
 
 #include <stdio.h>
-int main()
+
+void main()
 {
     int num;
     printf("Enter a number: ");
@@ -12,6 +13,4 @@ int main()
         printf("%d is negative.", num);
     else
         printf("%d is zero.", num);
-
-    return 0;
 }

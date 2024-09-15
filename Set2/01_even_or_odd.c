@@ -1,7 +1,8 @@
 // C Program to Check Whether a Number is Even or Odd :
 
 #include <stdio.h>
-int main()
+
+void main()
 {
     int n;
 
@@ -12,6 +13,4 @@ int main()
         printf("%d is even.", n);
     else
         printf("%d is odd.", n);
-
-    return 0;
 }

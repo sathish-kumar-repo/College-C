@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     int num;
 
@@ -44,8 +44,6 @@ int main()
     default:
         printf("Invalid input!\n");
     }
-
-    return 0;
 }
 
 // Written by sathish kumar

@@ -1,7 +1,8 @@
 // 1. C Program to Check Whether a Character is an Alphabet or not:
 
 #include <stdio.h>
-int main()
+
+void main()
 {
     char ch;
 
@@ -12,6 +13,4 @@ int main()
         printf("%c is an alphabet.", ch);
     else
         printf("%c is not an alphabet.", ch);
-
-    return 0;
 }

@@ -1,19 +1,18 @@
 // C Program to Find the Largest Number Among Three Numbers:
 
 #include <stdio.h>
-int main()
+
+void main()
 {
-    int num1, num2, num3;
+    int n1, n2, n3;
 
     printf("Enter three numbers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
+    scanf("%d %d %d", &n1, &n2, &n3);
 
-    if (num1 >= num2 && num1 >= num3)
-        printf("%d is the largest.", num1);
-    else if (num2 >= num1 && num2 >= num3)
-        printf("%d is the largest.", num2);
+    if (n1 >= n2 && n1 >= n3)
+        printf("%d is the largest.", n1);
+    else if (n2 >= n1 && n2 >= n3)
+        printf("%d is the largest.", n2);
     else
-        printf("%d is the largest.", num3);
-
-    return 0;
+        printf("%d is the largest.", n3);
 }
